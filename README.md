@@ -9,13 +9,13 @@
 ## 安装
 
 ```bash
-go install github.com/szyhf/go-docker-use@latest
+go install github.com/szyhf/go-docker-use/cmd/docker-use@latest
 ```
 
 本地构建：
 
 ```bash
-go build -o docker-use .
+go build -o docker-use ./cmd/docker-use
 ```
 
 ## 使用
